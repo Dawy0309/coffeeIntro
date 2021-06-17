@@ -24,15 +24,15 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 60rem;
+  height: 40rem;
   background-color: #ffcc99;
 }
 .carousel-item > img {
   border-radius: 30px;
   position: absolute;
-  top: 10%;
-  left: 5%;
-  width: 90%;
+  top: 0%;
+  left: 10%;
+  width: 80%;
   height: 50rem;
   object-fit: cover;
 }
@@ -64,9 +64,10 @@ body {
 
 /* Thin out the marketing headings */
 .featurette-heading {
+  border-radius: 10px;
   font-family: Microsoft JhengHei;
   background-color: #ffcc99;
-  line-height: 1;
+  line-height: 1.5;
   letter-spacing: -.05rem;
 }
 
@@ -88,7 +89,7 @@ body {
   }
 
   .featurette-heading {
-    font-size: 50px;
+    font-size: 40px;
   }
    .featurette-heading2 {
     font-size: 50px;
